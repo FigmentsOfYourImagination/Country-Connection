@@ -1,0 +1,88 @@
+.Container{
+    display: grid;
+    grid-template: repeat(10,1fr) / repeat(10,1fr);
+    height: 150vh;
+    background-color: aqua;
+    background-image: url(images/sunset\ moon.jpg);
+    background-size: contain; 
+    background-repeat: repeat;
+    background-position: center;
+    
+
+       
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    grid-area: 1/1/2/11;
+    font-size: 3rem;
+}
+
+.title-ish{
+    color: whitesmoke;
+    grid-area: 2/2/3/5 ;
+    display: flex;
+    justify-content: center;
+}
+.title-ish2{    
+    color: whitesmoke;
+    grid-area: 2/7/3/10;
+    display: flex;
+    align-items: flex-end;
+}
+.title-ish3{
+    color: whitesmoke;
+    grid-area: 5/2/6/5;
+    display: flex;
+    
+}
+.title-ish4{
+    color: whitesmoke;
+    grid-area: 6/7/7/10;
+}
+.Enter{
+    grid-area: 8/3/10/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    padding: 10px;
+    border-radius: 10%;
+}
+.button:hover{
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: whitesmoke;
+    color: blueviolet;
+}
+
+
+@media (max-width: 800px){
+    .Container{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .title-ish4{
+        grid-area: 6/7/7/9;
+        display: flex;
+        align-items: flex-end;
+    }
+
+}
+ @media (max-width:480px){
+    .Container{
+        height: 150vh;
+    }
+    .title-ish3{
+        grid-area: 5/2/6/5;
+        align-items: center;
+    }
+ }
+
