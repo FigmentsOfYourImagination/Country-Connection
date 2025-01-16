@@ -87,6 +87,7 @@ a:hover{
     .Container{
         height: 150vh;
         background-size: cover;
+        background-size:100% 100%;
     }
     .title-ish3{
         grid-area: 5/2/6/5;
