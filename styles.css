@@ -86,3 +86,12 @@ a:hover{
     }
  }
 
+/*Aboutpage/*/
+
+.about{
+    background-image: url(/images/sunset\ moon.jpg);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+
