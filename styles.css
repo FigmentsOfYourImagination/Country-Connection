@@ -73,7 +73,7 @@ a:hover{
 
 @media (max-width: 800px){
     .Container{
-        background-size: 100% 100%;
+        background-size: auto 100%;
         background-repeat: no-repeat;
     }
     .title-ish4{
@@ -87,7 +87,7 @@ a:hover{
     .Container{
         height: 150vh;
         
-        background-size:auto 100%;
+        background-size:cover;
     }
     .title-ish3{
         grid-area: 5/2/6/5;
