@@ -11,13 +11,6 @@
 
        
 }
-header{
-    grid-area: 1/1/2/11;
-}
-ul{
-    list-style: none;
-    display: flex;
-}
 
 h1{
     color: whitesmoke;
@@ -74,7 +67,7 @@ a:hover{
 @media (max-width: 800px){
     .Container{
         background-size: cover;
-        background-repeat: repea;
+        background-repeat: repeat;
     }
     .title-ish4{
         grid-area: 6/7/7/9;
@@ -85,9 +78,7 @@ a:hover{
 }
  @media (max-width:480px){
     .Container{
-        height: 150vh;  
-        background-size: cover;
-        background-repeat: repeat-y; 
+        height: 150vh;   
     }
     .title-ish3{
         grid-area: 5/2/6/5;
