@@ -73,7 +73,7 @@ a:hover{
 
 @media (max-width: 800px){
     .Container{
-        background-size: cover;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
     }
     .title-ish4{
