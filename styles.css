@@ -5,11 +5,18 @@
     background-color: aqua;
     background-image: url(images/sunset\ moon.jpg);
     background-size: contain; 
-    background-repeat: repeat;
+    background-repeat: repeat-x;
     background-position: center;
     
 
        
+}
+header{
+    grid-area: 1/1/2/11;
+}
+ul{
+    list-style: none;
+    display: flex;
 }
 
 h1{
@@ -59,7 +66,7 @@ a{
     color: black;
 }
 a:hover{
-    background-color: whitesmoke;
+    background-color: whitesmok;
     color: blueviolet;
 }
 
@@ -79,6 +86,7 @@ a:hover{
  @media (max-width:480px){
     .Container{
         height: 150vh;
+        background-size: cover;
     }
     .title-ish3{
         grid-area: 5/2/6/5;

@@ -2,12 +2,43 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Moon</title>
-        <link rel="StyleSheet" href="styles.css">
+        <title>Country Connection</title>
+        <link rel="StyleSheet"  href="styles.css">
+        <style>
+    .topnav{
+        grid-area: 1/1/2/11;
+        text-align: center;
+    }
+    h1{
+        grid-area: 1/4/2/8;
+        text-align: center;
+    }
+    .h1{
+        display: flex;
+        justify-content: center;
+    }
+    .topnav a:hover{
+        color: purple;
+    }
+    @media (max-width: 600px){
+        h1{
+            grid-area: 1/1/2/11;
+        }
+        
+    }
+        </style>
     </head>
     <body>
         <div class="Container">
-            <h1>Country Connection</h1>
+           
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="./public/About.html">About</a>
+                <a href="">News</a>
+                <a href="">Contact Us</a>
+            </div>
+            <h1 class="h1">Country Connection</h1>    
+                
             <div class="title-ish">
                 <P>Spend a relaxing weekend away from worry, anxiety and even yourself.</P>
             </div>
