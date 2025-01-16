@@ -11,12 +11,24 @@
 
        
 }
+.topnav{
+    grid-area: 1/1/2/11;
+    text-align: center;
+}
+
+.topnav a:hover{
+    color: purple;
+}
 
 h1{
     color: whitesmoke;
     text-align: center;
     grid-area: 1/1/2/11;
     font-size: 3rem;
+}
+.h1{
+    display: flex;
+    justify-content: center;
 }
 
 .title-ish{
