@@ -75,14 +75,14 @@ a:hover{
     color: blueviolet;
 }
 .about{
-    background-image: url(images/sunset\ moon.jpg);
+    background-image: url(./images/sunset\ moon.jpg);
     background-size: contain;
     background-position:top;
 }
 .thirdcontainer{
     display: grid;
     grid-template-columns: 1fr;
-    background-image: url(images/20250115_174455.jpg);
+    background-image: url(./images/20250115_174455.jpg);
     background-size:cover ;
     background-position: center;
     
