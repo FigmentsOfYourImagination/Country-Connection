@@ -76,7 +76,7 @@ a:hover{
 }
 .about{
     background-image: url(./images/sunset\ moon.jpg);
-    background-size: contain;
+    background-size: auto auto;
     background-position:center;
 }
 .thirdcontainer{
