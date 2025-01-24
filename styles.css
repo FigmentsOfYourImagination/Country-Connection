@@ -254,6 +254,9 @@ a:hover{
     color: darkgray;
     text-align: left;
   }
+  .gridpic{
+    height: 200px;
+  }
   @media (max-width:767px){
     .parent{
         display: flex;
